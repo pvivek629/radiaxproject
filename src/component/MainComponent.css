@@ -1,0 +1,218 @@
+.MainComponent{
+    height: 1263px;
+    background: transparent url('/public/images/background/background.svg') 780px -1087px  no-repeat padding-box;
+    opacity: 1;
+}
+
+.navbarheader{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.navbarbutton{
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 8px 23px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+/* Heading */
+
+.heading{
+    margin-top: 11rem;
+}
+
+.headingtext {
+    font-size: 63px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.headingpara{
+    letter-spacing: 0px;
+    color: #B1AAAA;
+    opacity: 1;
+    width: 78%;
+}
+
+.headinginput{
+    border: 2px solid #EBEBEB;
+    border-radius: 100px;
+    opacity: 1;
+    padding: 10px 20px;
+    color: #EBEBEB;
+}
+
+.headingbutton{
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #0634FF;
+    padding: 10px 33px;
+    border-radius: 29px;
+    box-shadow: 0px 30px 50px #0634FF57;
+    cursor: pointer;
+}
+
+/* icon */
+
+.iconpage{
+    margin-top: 12rem;
+}
+.icon{
+    height: 51px;
+}
+
+.graphimage{
+    width: 54rem;
+    margin-top: -70px;
+
+}
+
+/* card */
+
+.cardheading{
+    font-size: 40px;
+    width: 50%;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+
+.cardhead{
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cardheaddetail{
+    font-size: 13px;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    color: #B1AAAA;
+}
+
+
+/* ranked */
+
+.ranked{
+    height: 68rem;
+    background: transparent  url('./ranked/circle.svg') -761px -1px no-repeat padding-box;
+}
+
+.rankedheading{
+    display: flex;
+    font-size: 44px;
+    width: 69%;
+    line-height: 1.2;
+    margin-top: 5rem;
+}
+
+.rankeddetail{
+    font-size: 15px;
+    width: 75%;
+    color: #B1AAAA;
+}
+
+.learnmore{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.rankedarrow{
+    width: 20px;
+}
+
+/* workdone */
+
+.worktext{
+    font-size: 37px;
+    font-weight: bold;
+    color: #1E1C24;
+}
+
+.workpara{
+    font-size: 20px;
+    width: 30%;
+    font-weight: 600;
+}
+
+.rankedimage{
+    height: 16rem;
+    background: transparent url('../component/ranked/Signup_Shape.svg') 0px 0px  no-repeat padding-box;
+    transform: rotateY(180deg);
+}
+
+.rankedlearn{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .MainComponent{
+        height: 727px;
+    }
+    .graphimage{
+        display: none;
+    }
+    .heading{
+        margin-top: 3rem;
+    }
+    .headingtext{
+        font-size: 40px;
+        width: 100%;
+    }
+    .headingpara{
+        width: 100%;
+    }
+    .headinginput{
+        padding: 0px 10px;
+        margin-right: 10px;
+    }
+
+    .headingbutton{
+        padding: 10px 29px;
+    }
+
+    .navbarbutton{
+        border: 1px solid #1E1C24;
+        color: #1E1C24;
+    }
+    .iconpage{
+        margin-top: 5rem;
+    }
+    .icon{
+        height: 22px;
+    }
+    .cardheading{
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .ranked{
+        background: none;
+    }
+    
+    .rankedheading{
+        margin-top: 0rem;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .rankeddetail{
+        width: 100%;
+    }
+
+    .rankedimage{
+        display: none;
+    }
+    .worktext{
+        font-size: 33px;
+    }
+    .workpara{
+        width: 100%;
+    }
+  }
+  
